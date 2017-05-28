@@ -1,0 +1,14 @@
+{
+  "name": "songofthedayserver",
+  "version": "1.0.0",
+  "description": "API server for #songoftheday",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "David Peppel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
