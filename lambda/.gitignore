@@ -1,0 +1,23 @@
+# python files
+*.pyc
+__pycache__
+
+# Virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# workspace
+.vscode/
+*.zip
+.DS_Store
+
+# secrets
+secret.py
