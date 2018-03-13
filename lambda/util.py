@@ -39,8 +39,8 @@ def saveJSON(data, fname):
 
 
 def getInput(prompt):
-    value = input(prompt)
-    if value.strip().lower() == 'exit':
+    value = input(prompt).strip()
+    if value.lower() == 'exit':
         raise Done
     return value
 
