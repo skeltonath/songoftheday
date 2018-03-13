@@ -13,7 +13,7 @@ rm song-of-the-day-lambda.zip
 
 echo "Creating zip and adding dependencies"
 pushd $VIRTUAL_ENV/lib/python3.6/site-packages/
-zip -rq9 $VIRTUAL_ENV/song-of-the-day-lambda.zip *
+zip -rq9 --exclude=boto* $VIRTUAL_ENV/song-of-the-day-lambda.zip *
 popd
 
 echo "Adding lambda function to zip"
